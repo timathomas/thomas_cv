@@ -1,5 +1,3 @@
-This CV was forked from [posquit0's Awesome-CV](https://github.com/posquit0/Awesome-CV) repo. Feel free to fork this, or the original cv and use it for your own. 
-
 <h1 align="center">
   <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
     <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
