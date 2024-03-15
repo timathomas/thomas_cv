@@ -1,3 +1,8 @@
+## Personal edits
+run using bash 
+`xelatex thomas_cv.tex`
+
+
 This CV was forked from [posquit0's Awesome-CV](https://github.com/posquit0/Awesome-CV). Feel free to fork this, or the original cv and use it for your own. 
 
 <h1 align="center">
