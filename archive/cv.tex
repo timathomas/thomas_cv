@@ -8,7 +8,7 @@
 % Author:
 % Claud D. Park <posquit0.bj@gmail.com>
 % http://www.posquit0.com
-% 
+%
 % Template license:
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 %
@@ -32,7 +32,6 @@
 \colorlet{awesome}{awesome-red}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
-
 % Colors for text
 % Uncomment if you would like to specify your own color
 % \definecolor{darktext}{HTML}{414141}
@@ -46,20 +45,22 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-% \photo{./examples/profile.png}
-\name{Timothy A. Thomas, Ph.D.}{}
-\position{Research Director{\enskip\cdotp\enskip}Postdoctoral Scholar}
-\address{Urban Displacement Project{\enskip\cdotp\enskip}Institute of Governmental Studies{\enskip\cdotp\enskip}University of California, Berkeley}
+% \photo[rectangle,edge,right]{./examples/profile}
+\name{Tim Thomas, Ph.D.}{}
+\position{Assistant Professional Researcher}
+\address{
+Institute of Governmental Studies{\enskip\cdotp\enskip}Urban Displacement Project{\enskip\cdotp\enskip}Eviction Research Network\\
+109 Philosophy Hall, University of California at Berkeley, Berkeley CA 94720-2370
+}
 
-\mobile{(510)-988-3444}
 \email{timthomas@berkeley.edu}
-\homepage{https://timathomas.github.io}
+% \mobile{(510) 988-3444}
+\homepage{timathomas.github.io}
 \github{timathomas}
 % \linkedin{posquit0}
 % \gitlab{gitlab-id}
@@ -81,13 +82,13 @@
 
 % Print the header with above personal informations
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader
+\makecvheader[C]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {tim thomas~~~·~~~Curriculum Vitae}
+  {Tim Thomas~~~·~~~Curriculum Vitae}
   {\thepage}
 
 
@@ -95,16 +96,19 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{cv/employment.tex}
-\input{cv/education.tex}
-\input{cv/skills.tex}
-\input{cv/experience.tex}
-\input{cv/extracurricular.tex}
-\input{cv/honors.tex}
-\input{cv/presentation.tex}
-\input{cv/writing.tex}
-\input{cv/committees.tex}
-
+\input{cv/1employment}
+\input{cv/2education}
+\input{cv/3interests}
+\input{cv/4publications}
+% \input{cv/5reports} % other writings
+\input{cv/6presentation}
+\input{cv/7grants}
+\input{cv/8research}
+\input{cv/9teaching}
+\input{cv/10service}
+% \input{cv/writing.tex}
+% \input{cv/committees.tex}
+% \input{cv/extracurricular.tex}
 
 %-------------------------------------------------------------------------------
 \end{document}
