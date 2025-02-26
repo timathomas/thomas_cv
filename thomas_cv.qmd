@@ -1,0 +1,53 @@
+---
+title: "Tim Thomas' CV"
+author:
+  firstname: tim
+  lastname: thomas
+  address: "101 Philosophy Hall, University of California Berkeley"
+  position: "Assistant Professional Research"
+  contacts:
+    - icon: fa envelope
+      text: timthomas@berkeley.edu
+      url: "mailto:timthomas@berkeley.edu"
+    - icon: assets/icon/bi-house-fill.svg
+      text: timathomas.github.io
+      url: https://timathomas.github.io
+    - icon: fa brands orcid
+      text: 0000-0003-1357-6095
+      url: https://orcid.org/0000-0003-1357-6095
+    - icon: fa brands github
+      text: GitHub
+      url: https://github.com/timathomas
+    - icon: fa brands linkedin
+      text: LinkedIn
+      url: https://linkedin.com/in/tim-thomas-ph-d-109bab20
+    - icon: assets/icon/bluesky-brands.svg
+      text: BlueSky
+      url: https://bsky.app/profile/timthomas.bsky.social
+format: awesomecv-typst
+style:
+  color-accent: "000000"
+---
+<!-- used quarto use template kazuyanagimoto/quarto-awesomecv-typst @  https://github.com/kazuyanagimoto/quarto-awesomecv-typst-->
+
+
+## Education
+
+{{< yaml assets/yml/education.yml >}}
+
+## Publications
+
+{{< yaml assets/yml/publication.yml >}}
+
+
+## Work Experience
+
+{{< yaml assets/yml/work.yml >}}
+
+## Awards
+
+{{< yaml assets/yml/award.yml >}}
+
+## Skills
+
+{{< yaml assets/yml/skill.yml >}}
