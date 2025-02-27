@@ -173,8 +173,8 @@ $endif$
         style: "normal",
         font: (font-header),
       )
-      #text(fill: color-gray, weight: "thin")[#firstname]
-      #text(weight: "bold")[#lastname]
+      #text(weight: "thin")[#firstname]
+      #text(weight: "thin")[#lastname]
     ]
   ]
 }
@@ -189,7 +189,7 @@ $endif$
   
   set text(
     color-accent,
-    size: 9pt,
+    size: 12pt,
     weight: "regular",
   )
     
