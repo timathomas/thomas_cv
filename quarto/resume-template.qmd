@@ -1,0 +1,365 @@
+---
+title: ""
+format:
+  typst:
+    margin:
+      x: 0.75in
+      y: 0.75in
+---
+
+```{=typst}
+// Custom styling functions for the resume
+#let resume_header(name, title, email, phone, address, linkedin) = {
+  set text(font: "Arial", size: 10pt)
+
+  // Name and title section
+  block(
+    width: 100%,
+    [
+      #set text(size: 20pt, weight: "regular", tracking: 2pt)
+      #upper(name)
+
+      #v(0.3em)
+      #set text(size: 10pt, weight: "regular", tracking: 1pt)
+      #upper(title)
+
+      #v(0.5em)
+      #line(length: 100%, stroke: 0.5pt + black)
+    ]
+  )
+
+  // Contact information grid
+  v(0.5em)
+  grid(
+    columns: (1fr, 1fr),
+    column-gutter: 2em,
+    row-gutter: 0.3em,
+    [#email],
+    [#phone],
+    [#address],
+    [#linkedin]
+  )
+  v(0.8em)
+  line(length: 100%, stroke: 0.5pt + black)
+}
+
+#let section_header(title) = {
+  v(0.8em)
+  block[
+    #set text(size: 11pt, weight: "regular", tracking: 1pt)
+    #upper(title)
+    #v(0.3em)
+    #line(length: 100%, stroke: 0.5pt + black)
+  ]
+  v(0.5em)
+}
+
+#let experience_entry(title, company, date, items) = {
+  block(
+    width: 100%,
+    breakable: true,
+    [
+      #set text(size: 10pt)
+      #text(weight: "bold")[#title] \
+      #text(style: "italic")[#company / #date]
+      #v(0.3em)
+
+      #for item in items [
+        • #item \
+      ]
+      #v(0.5em)
+    ]
+  )
+}
+
+#let education_entry(degree, university, location, date) = {
+  block(
+    width: 100%,
+    [
+      #set text(size: 10pt)
+      #text(weight: "bold")[#degree] \
+      #text(style: "italic")[#university] \
+      #text(size: 9pt)[#location] \
+      #text(size: 9pt)[#date]
+      #v(0.5em)
+    ]
+  )
+}
+
+#let certification_entry(cert_name, university, location) = {
+  block(
+    width: 100%,
+    [
+      #set text(size: 10pt)
+      #text(weight: "bold")[#cert_name] \
+      #text(style: "italic")[#university] \
+      #text(size: 9pt)[#location]
+      #v(0.5em)
+    ]
+  )
+}
+
+#let skill_item(skill) = {
+  block(
+    width: 100%,
+    [
+      • #skill
+    ]
+  )
+}
+
+#let reference_entry(name, position, company, phone, email) = {
+  block(
+    width: 100%,
+    [
+      #set text(size: 9pt)
+      #text(weight: "bold")[#name] \
+      #text(size: 8pt, style: "italic")[#position] \
+      #text(size: 8pt)[#company] \
+      #text(size: 8pt)[#phone] \
+      #text(size: 8pt)[#email]
+      #v(0.5em)
+    ]
+  )
+}
+
+// Set document defaults
+#set text(font: "Arial", size: 10pt, fill: black)
+#set par(justify: true, leading: 0.65em)
+#set page(
+  paper: "us-letter",
+  numbering: none,
+)
+
+// Header
+#resume_header(
+  "SARA HAYWOOD",
+  "Business Manager",
+  "youremail@gmail.com",
+  "895-555-555",
+  "23364 Hoffman Avenue",
+  "linkedin.com/in/yourprofile"
+)
+
+// Two-column layout begins
+#grid(
+  columns: (60%, 40%),
+  column-gutter: 1.5em,
+
+  // LEFT COLUMN
+  [
+    #section_header("PROFESSIONAL PROFILE")
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    #section_header("EXPERIENCE")
+
+    #experience_entry(
+      "POSITION TITLE GOES HERE",
+      "Company / Date Range",
+      "",
+      (
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam sed enim ad minim veniam quis nostrud exercitation ullamco."
+      )
+    )
+
+    #experience_entry(
+      "POSITION TITLE GOES HERE",
+      "Company / Date Range",
+      "",
+      (
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      )
+    )
+
+    #experience_entry(
+      "POSITION TITLE GOES HERE",
+      "Company / Date Range",
+      "",
+      (
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      )
+    )
+  ],
+
+  // RIGHT COLUMN
+  [
+    #section_header("SKILLS")
+
+    #skill_item("Problem Solving")
+    #skill_item("Adaptability")
+    #skill_item("Collaboration")
+    #skill_item("Strong Work Ethic")
+    #skill_item("Time Management")
+    #skill_item("Critical Thinking")
+    #skill_item("Handling Pressure")
+    #skill_item("Leadership")
+
+    #section_header("EDUCATION")
+
+    #education_entry(
+      "DEGREE NAME / MAJOR",
+      "University, Location",
+      "",
+      "2007 - 2013"
+    )
+
+    #education_entry(
+      "DEGREE NAME / MAJOR",
+      "University, Location",
+      "",
+      "2007 - 2013"
+    )
+
+    #education_entry(
+      "DEGREE NAME / MAJOR",
+      "University, Location",
+      "",
+      "2000 - 2010"
+    )
+
+    #education_entry(
+      "DEGREE NAME / MAJOR",
+      "University, Location",
+      "",
+      "2000 - 2010"
+    )
+
+    #section_header("CERTIFICATION")
+
+    #certification_entry(
+      "CERTIFICATION #1",
+      "University, Location",
+      ""
+    )
+
+    #certification_entry(
+      "CERTIFICATION #2",
+      "University, Location",
+      ""
+    )
+
+    #certification_entry(
+      "CERTIFICATION #3",
+      "University, Location",
+      ""
+    )
+  ]
+)
+
+// PAGE BREAK FOR PAGE 2
+#pagebreak()
+
+// Page 2 - Two-column layout continues
+#grid(
+  columns: (60%, 40%),
+  column-gutter: 1.5em,
+
+  // LEFT COLUMN - PAGE 2
+  [
+    #section_header("EXPERIENCE (CONTINUED)")
+
+    #experience_entry(
+      "POSITION TITLE GOES HERE",
+      "Company / Date Range",
+      "",
+      (
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam sed enim ad minim veniam quis nostrud exercitation ullamco."
+      )
+    )
+
+    #experience_entry(
+      "POSITION TITLE GOES HERE",
+      "Company / Date Range",
+      "",
+      (
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      )
+    )
+
+    #experience_entry(
+      "POSITION TITLE GOES HERE",
+      "Company / Date Range",
+      "",
+      (
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      )
+    )
+
+    #section_header("REFERENCE")
+
+    #reference_entry(
+      "REFERENCE NAME",
+      "Job position",
+      "Company Name",
+      "000 - 514 - 587",
+      "Companyname@gmail.com"
+    )
+
+    #reference_entry(
+      "REFERENCE NAME",
+      "Job position",
+      "Company Name",
+      "000 - 514 - 587",
+      "Companyname@gmail.com"
+    )
+  ],
+
+  // RIGHT COLUMN - PAGE 2
+  [
+    #section_header("SKILLS")
+
+    #skill_item("Problem Solving")
+    #skill_item("Adaptability")
+    #skill_item("Collaboration")
+    #skill_item("Strong Work Ethic")
+    #skill_item("Time Management")
+    #skill_item("Critical Thinking")
+    #skill_item("Handling Pressure")
+    #skill_item("Leadership")
+    #skill_item("Creativity")
+
+    #section_header("EXTRAS")
+
+    Lorem ipsum dolor sit amet, with the consectetur adipiscing elit.
+
+    #v(0.5em)
+    Lorem ipsum dolor sit amet, with the consectetur adipiscing elit.
+
+    #v(0.5em)
+    Lorem ipsum dolor sit amet, with the consectetur adipiscing elit.
+
+    #v(0.5em)
+    Lorem ipsum dolor sit amet, with the consectetur adipiscing elit.
+
+    #v(0.5em)
+    Lorem ipsum dolor sit amet, with the consectetur adipiscing elit.
+
+    #v(0.5em)
+    Lorem ipsum dolor sit amet, with the consectetur adipiscing elit.
+
+    #v(0.5em)
+    Lorem ipsum dolor sit amet, with the consectetur adipiscing elit.
+  ]
+)
+```
+
+<!--
+INSTRUCTIONS FOR USE:
+1. Save this file as resume.qmd
+2. Edit the content in the #resume_header() function with your information
+3. Replace the Lorem ipsum text with your own content
+4. Modify the experience_entry(), education_entry(), and other entries with your details
+5. Render with: quarto render resume.qmd
+
+The template uses Typst's native grid layout for the two-column design.
+You can adjust column widths by changing the (60%, 40%) values in the grid() function.
+-->
