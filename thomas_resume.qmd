@@ -190,13 +190,14 @@ format:
   [
     #section_header("PROFESSIONAL PROFILE")
 
-    Nationally recognized housing justice expert with proven executive leadership, research innovation, and policy impact. Deep expertise in eviction prevention—the exact focus of EDC's mission. Ready to transition from policy advisory role to full-time nonprofit executive leadership. Brings to EDC:
+    Nationally recognized housing justice expert with proven executive leadership, research innovation, & policy impact. Deep expertise in eviction prevention—the exact focus of EDC's mission. Ready to transition from policy advisory role to full-time nonprofit executive leadership. Brings to EDC:
 
     - Subject Matter Authority: Leading U.S. expert on eviction prevention research; advisor to White House, HUD, Treasury
-    - Research Credibility: Influence over federal/state tenant protection policy and citywide Right to Counsel programs
-    - Executive Leadership: 6+ years founding and scaling research network; managing \$4.6M+ grant budgets; leading teams across institutions
+    - Research Credibility: Influence over federal/state tenant protection policy & citywide Right to Counsel programs
+    - Emergency Rental Assistance Expertise: Completed comprehensive HUD report on ERA during the pandemic; deep research knowledge of rental assistance program effectiveness across the country
+    - Executive Leadership: 6+ years founding & scaling research network; managing \$4.6M+ grant budgets; leading teams across institutions
     - Grant Success: \$4.6M+ in competitive research funding demonstrates ability to secure resources in constrained environment
-    - Coalition Building: Multi-year experience engaging elected officials, policymakers, nonprofit partners, and community organizations
+    - Coalition Building: Multi-year experience engaging elected officials, policymakers, nonprofit partners, & community organizations
     - Authentic Mission Alignment: Housing justice research is career-long passion; EDC represents culmination of my life's work
 
     #section_header("EXPERIENCE")
@@ -206,18 +207,18 @@ format:
       "The Eviction Research Network, U.C. Berkeley",                    // Company
       "2019 - Present",                      // Employment dates
       (                                  // Bullet points (add or remove as needed)
-        "Founded and scaled academic and nonprofit research network across the U.S.",
-        "Managed team members and $4.6M+ in grant budgets over 6 years.",
-        // "Established and maintained multi-year partnership agreements.",
-        "Advised White House, HUD, and Treasury on eviction trends and policy.",
+        "Founded & scaled academic & nonprofit research network across the U.S.",
+        "Managed team members & $4.6M+ in grant budgets over 6 years.",
+        // "Established & maintained multi-year partnership agreements.",
+        "Advised White House, HUD, & Treasury on eviction trends & policy.",
         "Shaped tenant protection laws & influenced CDC eviction moratorium.",
-        "Built partnerships with legal, advocacy, and government organizations.",
-        // "Engaged local and federal policymakers to advance housing solutions.",
-        "Published 30+ research reports at city, state, and federal levels.",
+        "Built partnerships with legal, advocacy, & government organizations.",
+        // "Engaged local & federal policymakers to advance housing solutions.",
+        "Published 30+ research reports at city, state, & federal levels.",
         // "Authored 9 peer-reviewed articles with 140+ scholarly citations.",
         // "Developed the national Housing Precarity Risk Model for 22M U.S. households at eviction risk.",
-        // "Led creation of machine learning models on eviction and housing disparities.",
-        "Documented racial and gender disparities in eviction enforcement.",
+        // "Led creation of machine learning models on eviction & housing disparities.",
+        "Documented racial & gender disparities in eviction enforcement.",
       )
     )
 
@@ -301,16 +302,16 @@ format:
       "The Urban Displacement Project, U.C. Berkeley",
       "2019 - 2025",
       (
-        "Led research strategy on anti-gentrification and displacement across the U.S.",
-        // "Directed a multidisciplinary research team across sociology, data science, economics, and planning.",
+        "Led research strategy on anti-gentrification & displacement across the U.S.",
+        // "Directed a multidisciplinary research team across sociology, data science, economics, & planning.",
         "Managed $500K+ annual research budget",
-        "Oversaw research timelines and publication strategy for multi-year projects",
-        "Built and managed state, city, county, and policy partnerships",
-        "Advised city councils, planning commissions, and community organizations",
+        "Oversaw research timelines & publication strategy for multi-year projects",
+        "Built & managed state, city, county, & policy partnerships",
+        "Advised city councils, planning commissions, & community organizations",
         "Developed anti-displacement policies in partnership with governments",
-        // "Built partnerships with real estate, housing, and community development organizations.",
-        "Engaged community members as research participants and advisors",
-        "Mentored and supervised graduate & undergraduate research assistants",
+        // "Built partnerships with real estate, housing, & community development organizations.",
+        "Engaged community members as research participants & advisors",
+        "Mentored & supervised graduate & undergraduate research assistants",
       )
     )
 
@@ -319,8 +320,8 @@ format:
       "Institute of Governmental Studies, Sociology, & Statistics Dept., U.C. Berkeley",
       "2022 - Present",
       (
-        "Conducted research on housing precarity, eviction, and homelessness.",
-        // "Taught graduate and undergraduate courses on data science, housing, and displacement analysis.",
+        "Conducted research on housing precarity, eviction, & homelessness.",
+        // "Taught graduate & undergraduate courses on data science, housing, & displacement analysis.",
         "Developed curriculum integrating policy/data science with social justice."
       )
     )
@@ -332,7 +333,7 @@ format:
       (
         "Organized NIH-funded Computational Social Science Training Program",
         "Mentored 25+ graduate student fellows in research methods",
-        "Prepared students for careers in research, policy, and nonprofit leadership"
+        "Prepared students for careers in research, policy, & nonprofit leadership"
       )
     )
 
@@ -341,9 +342,9 @@ format:
       "University of Washington & University of California, Berkeley",
       "2017 - 2022",
       (
-        "Researched and published on housing precarity, eviction, and homelessness",
+        "Researched & published on housing precarity, eviction, & homelessness",
         "Developed anti-displacement & gentrification models",
-        "Advised local, state, and federal policymakers on housing precarity & policy"
+        "Advised local, state, & federal policymakers on housing precarity & policy"
       )
     )
 
@@ -353,7 +354,7 @@ format:
       "2016 - 2019",
       (
         "Coordinated interdisciplinary research initiative",
-        "Connected academic researchers with community partners on homelessness and housing issues",
+        "Connected academic researchers with community partners on homelessness & housing issues",
       )
     )
 
@@ -363,7 +364,7 @@ format:
       "2016 - 2019",
       (
         "Coordinated interdisciplinary research initiative",
-        "Connected academic researchers with community partners on homelessness and housing issues",
+        "Connected academic researchers with community partners on homelessness & housing issues",
       )
     )
 
@@ -372,22 +373,25 @@ format:
       "Various Companies, GA, OH, & WA",
       "1997 - 2004",
       (
-        "Crew chief for land surveying and mapping projects",
+        "Crew chief for land surveying & mapping projects",
         "Managed crew of 2-4 surveyors",
-        "Collected and processed survey data",
+        "Collected & processed survey data",
       )
     )
 
     #section_header("FEDERAL & POLICY ADVISORY ROLES")
 
     #experience_entry(
-      "ACADEMIC EXPERT, EVICTION POLICY",
+      "ACADEMIC EXPERT, EVICTION POLICY & EMERGENCY RENTAL ASSISTANCE",
       "White House, HUD, Treasury",
-      "2021-2024",
+      "2021-2025",
       (
-        "Advised federal agencies on national eviction trends and rental assistance strategies",
-        "Participated in policy briefings and listening sessions",
-        "Informed federal rental assistance distribution and eviction prevention initiatives",
+        "Advised federal agencies on national eviction trends & rental assistance strategies",
+        "Led comprehensive evaluation of Emergency Rental Assistance (ERA) programs (HUD, 2023-2025)",
+        "Completed major HUD report analyzing ERA program effectiveness, implementation, & outcomes",
+        "Participated in policy briefings & listening sessions",
+        "Researched rental assistance distribution patterns & impact on eviction prevention",
+        "Informed federal rental assistance distribution & eviction prevention initiatives"
       )
     )
 
@@ -396,7 +400,7 @@ format:
       "National Academies of Sciences COVID-19 & Evictions Report",
       "2020-2021",
       (
-        "Co-authored report: 'Rental Eviction and the COVID-19 Pandemic: Averting a Looming Crisis'",
+        "Co-authored report: 'Rental Eviction & the COVID-19 Pandemic: Averting a Looming Crisis'",
         "Advised on evidence-based eviction prevention strategies",
       )
     )
@@ -406,8 +410,8 @@ format:
       "Various Committees & Legislatures",
       "2016-2024",
       (
-        "Testified before WA State House/Senate and NY Advisory Committee to U.S. Civil Rights Commission",
-        "Consulted with state legislatures on tenant protection and eviction prevention policy",
+        "Testified before WA State House/Senate & NY Advisory Committee to U.S. Civil Rights Commission",
+        "Consulted with state legislatures on tenant protection & eviction prevention policy",
         "Presented racial disparities data informing policy decisions",
       )
     )
@@ -417,7 +421,7 @@ format:
       "Various Cities & Counties",
       "2017-2024",
       (
-        "Briefed Seattle City Council, Baltimore City Council, and multiple city planning departments on eviction trends and policy",
+        "Briefed Seattle City Council, Baltimore City Council, & multiple city planning departments on eviction trends & policy",
         "Consulted with Marin County on anti-displacement strategies",
         "Advised policy makers on evidence-based housing solutions",
         "Presented racial disparities data informing policy decisions",
@@ -435,13 +439,13 @@ format:
   - #text(weight: "bold")[ \$671,356] | Emergency Rental Assistance Evaluation (Co-PI, HUD) | 2023-2025
   - #text(weight: "bold")[ \$400,000] | Housing Precarity & Displacement (PI, PolicyLink) | 2021-2024
   - #text(weight: "bold")[ \$375,000] | Housing Precarity Risk Model COVID-19 (Lead, C3.AI) | 2020
-  - Additional grants from McGovern Foundation, Raikes Foundation, Enterprise Community Partners, and others
+  - Additional grants from McGovern Foundation, Raikes Foundation, Enterprise Community Partners, & others
 
   Grant Management Competencies:
-  - Federal grant application and compliance (NIH, HUD, VA)
-  - Foundation grant writing and reporting
-  - Multi-year budget management and allocations
-  - Fiscal compliance and audit preparation
+  - Federal grant application & compliance (NIH, HUD, VA)
+  - Foundation grant writing & reporting
+  - Multi-year budget management & allocations
+  - Fiscal compliance & audit preparation
   - Resource allocation during budget constraints
   - Cost-effective program delivery
 
@@ -449,13 +453,13 @@ format:
 
 Peer-Reviewed Publications (9)
 - Ren, C., Thomas, T. A., et al. (2025). 'What Lies Behind the Answers: Applying Machine Learning to Understand Tenants’ Reaction to Eviction.' No. uscxh_v1. Center for Open Science.
-- Zapata, A. et al. (2025). 'Domains of housing instability and intimate partner violence risk among U.S. tenants.' International Journal of Environmental Research and Public Health, 22 (8), 1212.
-- Thomas, T. A., et al. (2024). \"Toward a National Eviction Data Collection Strategy." Cityscape, 26(1).
-- Gao, X., Thomas, T. A., et al. (2023). "Neighborhood Gentrification and Severe Maternal Morbidity." Social Science & Medicine, 334.
+- Zapata, A. et al. (2025). 'Domains of housing instability & intimate partner violence risk among U.S. tenants.' International Journal of Environmental Research & Public Health, 22 (8), 1212.
+- Thomas, T. A., et al. (2024). 'Toward a National Eviction Data Collection Strategy.' Cityscape, 26(1).
+- Gao, X., Thomas, T. A., et al. (2023). 'Neighborhood Gentrification & Severe Maternal Morbidity.' Social Science & Medicine, 334.
 - Hepburn, P., et al. (2021). 'US Eviction Filing Patterns in 2020.' Socius, 7(1), 1-18.
 
 Reports & Policy Briefs (30+)
-- Authored or co-authored major reports on eviction trends, racial disparities, housing precarity, and displacement strategies used by cities, states, and federal agencies.
+- Authored or co-authored major reports on eviction trends, racial disparities, housing precarity, & displacement strategies used by cities, states, & federal agencies.
 
 Academic Recognition
 - 143+ citations in peer-reviewed literature
@@ -465,35 +469,35 @@ Academic Recognition
 #section_header("DEMONSTRATED ALIGNMENT WITH EDC MISSION")
 
 Eviction Prevention Expertise
-- Deep, nationally-recognized expertise in eviction prevention and Right to Counsel models
-- Intimate knowledge of San Francisco's eviction landscape and citywide TRC program
+- Deep, nationally-recognized expertise in eviction prevention & Right to Counsel models
+- Intimate knowledge of San Francisco's eviction landscape & citywide TRC program
 - Research directly informs tenant protection strategies EDC advances
 
 Tenant Rights Advocacy
-- Career-long commitment to housing justice and tenant protection
-- Research documents racial and gender disparities in evictions—core to EDC's racial justice mission
-- Authentic advocacy for low-income tenants and communities of color
+- Career-long commitment to housing justice & tenant protection
+- Research documents racial & gender disparities in evictions—core to EDC's racial justice mission
+- Authentic advocacy for low-income tenants & communities of color
 
 Understanding of Legal Services & Prevention
-- Partnered with legal aid organizations, tenant advocates, and homeless service providers throughout career
+- Partnered with legal aid organizations, tenant advocates, & homeless service providers throughout career
 - Research on Right to Counsel demonstrates understanding of legal defense + financial assistance model
 - Co-authored National Academies of Sciences report on eviction prevention strategies during crisis
 
 Ability to Build Coalitions & Engage Stakeholders
 - Built multi-institutional research network
-- Engaged city councils, mayors, and government agencies across country
+- Engaged city councils, mayors, & government agencies across country
 - Cultivated relationships with federal agencies (White House, HUD, Treasury)
-- Testified before advisory committees and state legislatures
+- Testified before advisory committees & state legislatures
 
 Track Record of Securing Resources
 - Raised \$4.6M in competitive funding for nonprofit research organization
-- Demonstrated fiscal stewardship and cost-effective operations
+- Demonstrated fiscal stewardship & cost-effective operations
 - Experience managing grants across multiple funders with complex requirements
 
 
     #section_header("REFERENCE & ADDITIONAL INFORMATION")
 
-    Available upon request. Willing to discuss specific experience in nonprofit governance, fundraising strategy, coalition building, and mission-driven leadership.
+    List of references available upon request. Detailed CV available at https://timathomas.github.io/thomas_cv/thomas_cv.pdf. Willing to discuss specific experience in nonprofit governance, fundraising strategy, coalition building, & mission-driven leadership.
 
     // #reference_entry(
     //   "REFERENCE NAME",                // Reference name
